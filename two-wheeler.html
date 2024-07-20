@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Two Wheelers | Amaron India</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- <link rel="stylesheet" href="./plugin/css/bootstrap.css" /> -->
+    <link rel="stylesheet" href="./css/two-wheeler.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main class="container-fluid">
+      <!-- Navbar section starts here  contains 3 sub sections-->
+      <header class="row main-header">
+        <!-- navbar top section starts here  -->
+        <div class="col-12 main-header-contact m-hide">
+          <a href="mailto:customercare@amararaja.com"
+            ><i class="fa-solid fa-envelope"></i> customercare@amararaja.com</a
+          >
+          <a href="tel:18004254848"
+            ><i class="fa-solid fa-phone"></i> 1800-425-4848</a
+          >
+
+          <span>|</span>
+
+          <span>Follow us:</span>
+          <span><i class="fa-brands fa-twitter"></i></span>
+          <span><i class="fa-brands fa-facebook-f"></i></span>
+          <span><i class="fa-brands fa-instagram"></i></span>
+        </div>
+        <!-- navbar top section ends here-->
+        <!-- navbar middle section starts from here  -->
+        <div class="col-12 main-header-log-brand">
+          <div class="ham-menu">
+            <i class="fa-solid fa-bars"></i>
+            <a href="./index.html">
+              <img
+                src="./images/Amaron_Logo_0.jpg"
+                alt="Amaron Logo"
+                class="brand-logo"
+            /></a>
+          </div>
+          <input type="text" placeholder="Search" />
+
+          <div class="main-header-log-reg">
+            <span class="main-header-log-cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span class="cart">0</span>
+            </span>
+
+            <span class="m-hide"
+              ><a href="./signup.html"
+                ><i class="fa-regular fa-user"></i>
+                <strong class="reg">Login/Signup</strong></a
+              ></span
+            >
+          </div>
+        </div>
+
+        <!-- navbar middle sections ends here  -->
+        <!-- navbar last section starts from here -->
+
+        <div class="col-12 main-header-menu">
+          <ul class="menu m-hide">
+            <li class="sub-menu-items user-action d-hide">
+              <div class="">
+                <i class="fa-solid fa-user fa-2x"></i>
+                <span>User,Login/Sign-up</span>
+                <button>X</button>
+              </div>
+            </li>
+            <li class="items">
+              <span>About &nbsp; <i class="fa-solid fa-angle-down"></i></span>
+              <div class="sub-menu">
+                <ul class="sub-menu-list">
+                  <li class="sub-menu-items"><a href="#">Amara Raja</a></li>
+                  <li class="sub-menu-items"><a href="#">Management</a></li>
+                  <li class="sub-menu-items"><a href="#">Aftermarket</a></li>
+                  <li class="sub-menu-items"><a href="#">OEM</a></li>
+                  <li class="sub-menu-items">
+                    <a href="#">International Operations</a>
+                  </li>
+                  <li class="sub-menu-items">
+                    <a href="#">Manufacturing</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="items">
+              <span
+                >Product & Solutions &nbsp;
+                <i class="fa-solid fa-angle-down"></i
+              ></span>
+              <div class="sub-menu">
+                <ul class="sub-menu-list">
+                  <li class="sub-menu-items"><a href="./two-wheeler.html">Two Wheelers</a></li>
+                  <li class="sub-menu-items">
+                    <a href="#2">Three Wheelers</a>
+                  </li>
+                  <li class="sub-menu-items">
+                    <a href="#3">Passenger Vehicles</a>
+                  </li>
+                  <li class="sub-menu-items">
+                    <a href="#4">Commercial Vehicles</a>
+                  </li>
+                  <li class="sub-menu-items"><a href="#5">Farm Vehicles</a></li>
+                  <li class="sub-menu-items">
+                    <a href="#6">Earth Moving Equipment</a>
+                  </li>
+                  <li class="sub-menu-items"><a href="#7">Genset</a></li>
+                  <li class="sub-menu-items"><a href="#8">E-Rickshaw</a></li>
+                  <li class="sub-menu-items">
+                    <a href="./inverter-and-batteries.html"
+                      >Inverter And Batteries</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="items">
+              <span>Service &nbsp; <i class="fa-solid fa-angle-down"></i></span>
+              <div class="sub-menu">
+                <ul class="sub-menu-list">
+                  <li class="sub-menu-items"><a href="#1">AMCARE</a></li>
+                  <li class="sub-menu-items">
+                    <a href="#2">Tips for buying batteries</a>
+                  </li>
+                  <li class="sub-menu-items">
+                    <a href="#3">Battery safety guidelines</a>
+                  </li>
+                  <li class="sub-menu-items">
+                    <a href="./terminology.html">Terminology</a>
+                  </li>
+                  <li class="sub-menu-items"><a href="#5">FAQs</a></li>
+                  <li class="sub-menu-items">
+                    <a href="#6">Battery Recycle</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="items">
+              <span
+                >Amaron Experience &nbsp;<i class="fa-solid fa-angle-down"></i
+              ></span>
+
+              <div class="sub-menu">
+                <ul class="sub-menu-list">
+                  <li class="sub-menu-items"><a href="#1">Media</a></li>
+                  <li class="sub-menu-items"><a href="./ad-gallery.html">Ad Gallery</a></li>
+                  <li class="sub-menu-items"><a href="#3">Fun Facts</a></li>
+                  <li class="sub-menu-items"><a href="#4">AMARON Logo</a></li>
+                  <li class="sub-menu-items"><a href="#5">Events</a></li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="items">
+              <span><a href="#">Pitstop Locator</a></span>
+            </li>
+            <li class="items">
+              <span><a href="./contact.html">Contact</a></span>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <!-- navbar last section and navbar section ends here  -->
+      <!-- 1st section of main body section starts here  -->
+      <section class="row">
+        <p class="fs-1 d-lg-none d-md-none py-3 pt-4 px-3">
+          <strong>TWO</strong> WHEELER BATTERY
+        </p>
+        <section class="col-12 position-relative main-carousel">
+          <div
+            class="main-carousel-box position-absolute mt-5 ms-3 w-50 p-4 d-none d-lg-block d-md-block"
+          >
+            <p class="fs-1"><strong>TWO</strong> WHEELER BATTERY</p>
+            <p class="m-hide">
+              Ride on AMARON - the perfect fit for your two-wheelers
+            </p>
+            <div>
+              <ol class="list-unstyled d-flex flex-wrap">
+                <li class="w-50 pb-3">
+                  <img
+                    src="./images/breakthrough-technology-icon_0.png"
+                    alt="Breakthrough Technology"
+                    class="me-2"
+                  />
+                  <span>Breakthrough Technology</span>
+                </li>
+                <li class="w-50">
+                  <img
+                    src="./images/commercial vehicles 1.png"
+                    alt="High Cranking Power"
+                    class="me-2"
+                  />
+                  <span>High Cranking Power</span>
+                </li>
+                <li class="w-50">
+                  <img
+                    src="./images/commercial vehicles 2.png"
+                    alt="Zero-Maintenance"
+                    class="me-2"
+                  />
+                  <span>Zero-Maintenance</span>
+                </li>
+                <li class="w-50">
+                  <img
+                    src="./images/icon-resistance.png"
+                    alt="High Corrosion Resistance"
+                    class="me-2"
+                  />
+                  <span>High Corrosion Resistance</span>
+                </li>
+              </ol>
+            </div>
+          </div>
+          <img
+            src="./images/TwoWheeler_0.jpg"
+            alt="Amaron India"
+            class="w-100"
+          />
+        </section>
+      </section>
+      <!-- 1st section ends here  -->
+      <!-- breadcrum section starts from here -->
+
+      <section class="breadcrumb-part row">
+        <!-- breadcrumb part  -->
+        <div class="d-none d-lg-block d-md-block">
+          <nav style="--bs-breadcrumb-divider: '>'" class="col-12">
+            <ol class="breadcrumb text-uppercase ps-3">
+              <li class="breadcrumb-item">Home</li>
+              <li class="breadcrumb-item">Products & Solutions</li>
+              <li class="breadcrumb-item">Two Wheelers</li>
+            </ol>
+          </nav>
+        </div>
+
+        <!-- choose your battery form part -->
+        <section
+          class="col-12 col-lg-11 col-md-11 mx-0 mx-lg-5 mx-md-5 mt-2 p-3 pb-5 bg-white"
+        >
+          <p class="fw-bold">CHOOSE YOUR BATTERY</p>
+          <form
+            action=""
+            class="d-flex flex-lg-row flex-md-row flex-column align-items-lg-center align-items-md-center ps-3"
+          >
+            <div class="col-12 col-md-3 col-lg-3 me-3 mb-4 mb-lg-0 mb-md-0">
+              <label for="" class="small text-secondary">VEHICLE MAKE</label>
+              <select
+                class="form-select border-0 border-bottom border-dark rounded-0"
+              >
+                <option value="">Select</option>
+                <option value="">Select</option>
+                <option value="">Select</option>
+              </select>
+            </div>
+
+            <div class="col-12 col-md-3 col-lg-3 me-3 mb-4 mb-lg-0 mb-md-0">
+              <label for="" class="small text-secondary">MODEL</label>
+              <select
+                class="form-select border-0 border-bottom border-dark rounded-0"
+              >
+                <option value="">Select</option>
+                <option value="">Select</option>
+                <option value="">Select</option>
+              </select>
+            </div>
+
+            <div class="col-12 col-md-3 col-lg-3 me-3 mb-4 mb-lg-0 mb-md-0">
+              <label for="" class="small text-secondary">FUEL</label>
+              <select
+                class="form-select border-0 border-bottom border-dark rounded-0"
+              >
+                <option value="">Select</option>
+                <option value="">Select</option>
+                <option value="">Select</option>
+              </select>
+            </div>
+
+            <button
+              class="col-6 col-lg-2 col-md-2 btn py-2 px-0 px-lg-5 px-md-5 fw-bold border rounded-0"
+            >
+              FIND NOW
+            </button>
+          </form>
+        </section>
+      </section>
+
+      <!-- 2nd section of body starts from here  -->
+      <section class="row d-flex justify-content-center pb-3">
+        <div
+          class="col-12 product-section d-flex flex-column flex-lg-row flex-md-row gap-5 mt-3"
+        >
+          <!-- image with disabled buttons starts here  -->
+          <div id="left">
+            <div
+              id="product-img"
+              class="border border-1 d-flex justify-content-center align-items-center"
+            >
+              <img src="./images/Amaron_Pro-Rider.png" alt="" />
+            </div>
+            <div style="width: 400px" class="d-flex flex-wrap product-btn">
+              <div
+                class="w-50 ps-3 py-2 border border-1"
+                style="background-color: #ececec"
+              >
+                <p class="mb-0 color"><strong>AMARON</strong></p>
+                <p class="mb-0"><strong>PRO RIDER</strong></p>
+              </div>
+              <div
+                class="w-50 ps-3 py-2 border border-1"
+                style="background-color: #f6f6f6"
+              >
+                <p class="mb-0 color">WARRANTY</p>
+                <p class="mb-0"><strong>48* MONTHS</strong></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- description about that image starts from here  -->
+          <div id="right">
+            <p class="fs-1">
+              GET <strong style="color: #95c93d">AMARON</strong> BATTERIES FOR
+              MOTORBIKES AND SCOOTERS
+            </p>
+            <p>
+              With constant investment in research and development, AMARON
+              batteries are improved to suit evolving demands for newer
+              vehicles.
+            </p>
+            <p>
+              Amaron offers Pro Bike Rider (PBR) batteries, manufactured with
+              state-of-the-art VRLA technology, for the entire range of
+              two-wheelers available in India. Amaron two-wheeler battery is
+              tested for high performance under all weather conditions.
+            </p>
+            <p>
+              VRLA technology works on the oxygen recombination principle, which
+              prevents water loss and provides a zero maintenance battery.
+            </p>
+            <p>
+              No matter what your ride is, there is an Amaron PBR battery that
+              is going to last long, really long.
+            </p>
+
+            <button class="bg-color text-white border border-0 px-5 py-2">
+              DOWNLOAD COMPLETE APPLICATION CHART
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3rd section starts from here  -->
+      <section
+        class="row d-flex justify-content-center"
+        style="margin-bottom: 5em"
+      >
+        <div class="col-11 ps-3 ps-lg-5 ps-md-5 pt-5 bg-white">
+          <hr class="col-12 mb-5" />
+
+          <div class="col-12">
+            <p class="fs-4 fw-lighter m-0 mb-4">OUR FEATURES:</p>
+
+            <div class="d-flex">
+              <div>
+                <ol class="list-unstyled d-flex flex-wrap">
+                  <li class="w-33 pb-3 text-secondary">
+                    <img
+                      src="./images/breakthrough-technology-icon_0.png"
+                      alt="Breakthrough Technology"
+                      class="me-2"
+                    />
+                    <strong>Breakthrough Technology</strong>
+                  </li>
+                  <li class="w-33 pb-3 text-secondary">
+                    <img
+                      src="./images/commercial vehicles 1.png"
+                      alt="High Cranking Power"
+                      class="me-2"
+                    />
+                    <strong>High Cranking Power</strong>
+                  </li>
+                  <li class="w-33 pb-3 text-secondary">
+                    <img
+                      src="./images/icon-vibration_0.png"
+                      alt="Vibration Resistance"
+                      class="me-2"
+                    />
+                    <strong>Vibration Resistance</strong>
+                  </li>
+                  <li class="w-33 pb-3 text-secondary">
+                    <img
+                      src="./images/icon-spill.png"
+                      alt="Spill-Proof"
+                      class="me-2"
+                    />
+                    <strong>Spill-Proof</strong>
+                  </li>
+                  <li class="w-33 pb-3 text-secondary">
+                    <img
+                      src="./images/commercial vehicles 2.png"
+                      alt="Zero-Maintenance"
+                      class="me-2"
+                    />
+                    <strong>Zero-Maintenance</strong>
+                  </li>
+                  <li class="w-33 pb-3 text-secondary">
+                    <img
+                      src="./images/icon-safety_0.png"
+                      alt="Improved Safety"
+                      class="me-2"
+                    />
+                    <strong>Improved Safety</strong>
+                  </li>
+                  <li class="w-33 pb-3 text-secondary">
+                    <img
+                      src="./images/icon-resistance.png"
+                      alt="High Corrosion Resistance"
+                      class="me-2"
+                    />
+                    <strong>High Corrosion Resistance</strong>
+                  </li>
+                  <li class="w-33 pb-3 text-secondary">
+                    <img
+                      src="./images/icon-long-life.png"
+                      alt="Long Life"
+                      class="me-2"
+                    />
+                    <strong>Long Life</strong>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- before footer section starts from here  -->
+      <section class="row footer-top">
+        <div class="col-11 ps-1 ps-lg-5 ps-md-5 pt-3 text-secondary">
+          <ul class="ms-2">
+            <li>
+              Total warranty includes pro-rata warranty. Please refer to the
+              warranty card for terms and conditions.
+            </li>
+            <li>
+              Battery image shown is only for reference. Actual image may vary.
+            </li>
+            <li>
+              Updation of Application chart is a continuous process in Amara
+              Raja. As a result battery recommendation may subject to change
+              without prior notice.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+
+      <!-- footer section starts from here  -->
+
+      <footer class="row">
+        <section
+          class="col-12 top-footer text-white d-flex flex-column flex-lg-row flex-md-row justify-content-lg-between justify-content-md-between align-items-lg-center align-items-md-center p-0 py-lg-3 py-md-3 px-lg-5 px-md-5"
+          style="background-color: #1f1c1d"
+        >
+          <div
+            class="top-footer-left d-flex flex-column flex-lg-row flex-md-row align-items-lg-center align-items-md-center gap-3 gap-lg-5 gap-md-5"
+          >
+            <div
+              class="footer-logo p-3 p-lg-0 p-md-0 d-flex justify-content-between align-items-center"
+            >
+              <img src="./images/amaron_footer.png" alt="Amaron Logo" />
+              <img
+                src="./images/amara-logo@2x.png"
+                alt="Amara raja"
+                class="d-block d-lg-none d-md-none"
+                style="height: 80px"
+              />
+            </div>
+
+            <div
+              class="top-footer-social d-flex align-items-center justify-content-center py-4 py-lg-0 py-md-0"
+            >
+              <span class="d-inline d-lg-none d-md-none pe-3">Follow Us:</span>
+              <i
+                class="fa-brands fa-twitter"
+                aria-hidden="true"
+                style="color: #339cf8"
+              ></i
+              >&nbsp;
+              <i
+                class="fa-brands fa-linkedin-in ps-2"
+                style="color: #2793d8"
+                aria-hidden="true"
+              ></i
+              >&nbsp;
+              <i
+                class="fa-brands fa-facebook-f ps-2"
+                aria-hidden="true"
+                style="color: #4160c4"
+              ></i
+              >&nbsp;
+              <i
+                class="fa-brands fa-instagram ps-2"
+                aria-hidden="true"
+                style="color: #b6167b"
+              ></i
+              >&nbsp;
+              <i
+                class="fa-brands fa-youtube ps-2"
+                aria-hidden="true"
+                style="color: #ce1312"
+              ></i>
+            </div>
+          </div>
+
+          <div class="top-footer-right mx-3 mx-lg-0 mx-md-0 d-flex gap-3">
+            <div
+              class="top-footer-contact d-flex flex-column align-items-center align-items-lg-start align-items-md-start py-3 py-lg-0 py-md-0 ms-5 ms-lg-0 ms-md-0"
+            >
+              <span
+                class="mobile-color mb-3 mb-lg-0 mb-md-0"
+                style="color: #95c93d"
+              >
+                <img src="./images/headphones.png" alt="headphones" />
+                &nbsp; 24X7 CARE
+              </span>
+
+              <hr class="d-block d-lg-none d-md-none w-100" />
+
+              <div class="contact d-flex flex-column">
+                <a href="#" class="text-decoration-none text-white"
+                  >1800-425-4848
+                  <span style="font-size: 0.75em">(Toll-Free, India)</span></a
+                >
+                <a
+                  href="mailto:customercare@amararaja.com"
+                  class="text-decoration-none text-white"
+                  >customercare@amararaja.com</a
+                >
+              </div>
+            </div>
+
+            <div class="d-none d-lg-flex d-md-flex align-items-center">
+              <img src="./images/pitstop.png" alt="pitstop" />
+              <div class="ps-2">
+                <p style="color: #95c93d; padding: 0">WANT TO PURCHASE?</p>
+                <p class="pitstop-locator">Locate PITSTOP</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="main-footer d-flex flex-column flex-lg-row flex-md-row justify-content-lg-around justify-content-md-around p-0"
+          style="background-color: #231f20; color: #95c93d"
+        >
+          <div class="main-footer-about footer-heading">
+            <div
+              class="d-flex pt-4 px-3 px-lg-0 px-md-0 justify-content-between"
+            >
+              <p>ABOUT</p>
+              <i
+                class="fa-solid fa-angle-down d-inline d-lg-none d-md-none"
+              ></i>
+            </div>
+            <ul class="list-unstyled d-none d-lg-block mb-0 w-100" id="main_footer_about">
+              <!-- <li
+                class="footer-items px-3 px-lg-0 px-md-0 py-2 py-lg-0 py-md-0"
+              >
+                <a class="text-decoration-none text-white" href="#1"
+                  >Amara Raja</a
+                >
+              </li>
+              <li
+                class="footer-items px-3 px-lg-0 px-md-0 py-2 py-lg-0 py-md-0"
+              >
+                <a class="text-decoration-none text-white" href="#2"
+                  >Management</a
+                >
+              </li>
+              <li
+                class="footer-items px-3 px-lg-0 px-md-0 py-2 py-lg-0 py-md-0"
+              >
+                <a class="text-decoration-none text-white" href="#3"
+                  >Aftermarket</a
+                >
+              </li>
+              <li
+                class="footer-items px-3 px-lg-0 px-md-0 py-2 py-lg-0 py-md-0"
+              >
+                <a class="text-decoration-none text-white" href="#4">OEM</a>
+              </li>
+              <li
+                class="footer-items px-3 px-lg-0 px-md-0 py-2 py-lg-0 py-md-0"
+              >
+                <a href="#5" class="text-decoration-none text-white"
+                  >International Operations</a
+                >
+              </li>
+              <li
+                class="footer-items px-3 px-lg-0 px-md-0 py-2 py-lg-0 py-md-0"
+              >
+                <a href="#6">Manufacturing</a>
+              </li> -->
+            </ul>
+          </div>
+          <div class="main-footer-products footer-heading">
+            <div
+              class="d-flex justify-content-between pt-4 px-3 px-lg-0 px-md-0"
+            >
+              <p>PRODUCTS & SOLUTIONS</p>
+              <i
+                class="fa-solid fa-angle-down d-inline d-lg-none d-md-none"
+              ></i>
+            </div>
+            <ul class="list-unstyled d-none d-lg-block" id="main-footer-products">
+              <!-- <li
+                class="footer-items px-3 px-lg-0 px-md-0 py-2 py-lg-0 py-md-0"
+              >
+                <a href="#1">Two Wheelers</a>
+              </li>
+              <li
+                class="footer-items px-3 px-lg-0 px-md-0 py-2 py-lg-0 py-md-0"
+              >
+                <a href="#2">Three Wheelers</a>
+              </li>
+              <li
+                class="footer-items px-3 px-lg-0 px-md-0 py-2 py-lg-0 py-md-0"
+              >
+                <a href="#3">Passenger Vehicles</a>
+              </li>
+              <li
+                class="footer-items px-3 px-lg-0 px-md-0 py-2 py-lg-0 py-md-0"
+              >
+                <a href="#4">Commercial Vehicles</a>
+              </li>
+              <li
+                class="footer-items px-3 px-lg-0 px-md-0 py-2 py-lg-0 py-md-0"
+              >
+                <a href="#5">Farm Vehicles</a>
+              </li>
+              <li
+                class="footer-items px-3 px-lg-0 px-md-0 py-2 py-lg-0 py-md-0"
+              >
+                <a href="#6">Earth Moving Equipment</a>
+              </li>
+              <li
+                class="footer-items px-3 px-lg-0 px-md-0 py-2 py-lg-0 py-md-0"
+              >
+                <a href="#7">Genset</a>
+              </li>
+              <li
+                class="footer-items px-3 px-lg-0 px-md-0 py-2 py-lg-0 py-md-0"
+              >
+                <a href="#8">E-Rickshaw</a>
+              </li>
+              <li
+                class="footer-items px-3 px-lg-0 px-md-0 py-2 py-lg-0 py-md-0"
+              >
+                <a href="./inverter-and-batteries.html"
+                  >Inverter And Batteries</a
+                >
+              </li> -->
+            </ul>
+          </div>
+          <div class="main-footer-services footer-heading">
+            <div
+              class="d-flex justify-content-between pt-4 px-3 px-lg-0 px-md-0"
+            >
+              <p>SERVICES</p>
+              <i
+                class="fa-solid fa-angle-down d-inline d-lg-none d-md-none"
+              ></i>
+            </div>
+            <ul class="list-unstyled d-none d-lg-block" id="main-footer-services">
+              <!-- <li
+                class="footer-items px-3 px-lg-0 px-md-0 py-2 py-lg-0 py-md-0"
+              >
+                <a href="#1">AMCARE</a>
+              </li>
+              <li
+                class="footer-items px-3 px-lg-0 px-md-0 py-2 py-lg-0 py-md-0"
+              >
+                <a href="#2">Tips for buying batteries</a>
+              </li>
+              <li
+                class="footer-items px-3 px-lg-0 px-md-0 py-2 py-lg-0 py-md-0"
+              >
+                <a href="#3">Battery safety guidelines</a>
+              </li>
+              <li
+                class="footer-items px-3 px-lg-0 px-md-0 py-2 py-lg-0 py-md-0"
+              >
+                <a href="#4">Terminology</a>
+              </li>
+              <li
+                class="footer-items px-3 px-lg-0 px-md-0 py-2 py-lg-0 py-md-0"
+              >
+                <a href="#5">FAQs</a>
+              </li>
+              <li
+                class="footer-items px-3 px-lg-0 px-md-0 py-2 py-lg-0 py-md-0"
+              >
+                <a href="#6">Battery Recycle</a>
+              </li> -->
+            </ul>
+          </div>
+          <div class="main-footer-experience footer-heading">
+            <div
+              class="d-flex justify-content-between pt-4 px-3 px-lg-0 px-md-0"
+            >
+              <p>AMARON EXPERIENCE</p>
+              <i
+                class="fa-solid fa-angle-down d-inline d-lg-none d-md-none"
+              ></i>
+            </div>
+            <ul class="list-unstyled d-none d-lg-block" id="main-footer-experience">
+              <!-- <li
+                class="footer-items px-3 px-lg-0 px-md-0 py-2 py-lg-0 py-md-0"
+              >
+                <a href="#1">Media</a>
+              </li>
+              <li
+                class="footer-items px-3 px-lg-0 px-md-0 py-2 py-lg-0 py-md-0"
+              >
+                <a href="#2">Ad Gallery</a>
+              </li>
+              <li
+                class="footer-items px-3 px-lg-0 px-md-0 py-2 py-lg-0 py-md-0"
+              >
+                <a href="#3">Fun Facts</a>
+              </li>
+              <li
+                class="footer-items px-3 px-lg-0 px-md-0 py-2 py-lg-0 py-md-0"
+              >
+                <a href="#4">AMARON Logo</a>
+              </li>
+              <li
+                class="footer-items px-3 px-lg-0 px-md-0 py-2 py-lg-0 py-md-0"
+              >
+                <a href="#5">Events</a>
+              </li> -->
+            </ul>
+          </div>
+
+          <div class="main-footer-others footer-heading">
+            <div
+              class="d-flex justify-content-between pt-4 px-3 px-lg-0 px-md-0"
+            >
+              <p>OTHERS</p>
+              <i
+                class="fa-solid fa-angle-down d-inline d-lg-none d-md-none"
+              ></i>
+            </div>
+            <ul class="list-unstyled d-none d-lg-block" id="main-footer-others">
+              <!-- <li
+                class="footer-items px-3 px-lg-0 px-md-0 py-2 py-lg-0 py-md-0"
+              >
+                <a href="./contact.html">Contact</a>
+              </li>
+              <li
+                class="footer-items px-3 px-lg-0 px-md-0 py-2 py-lg-0 py-md-0"
+              >
+                <a href="#2">Blogs</a>
+              </li>
+              <li
+                class="footer-items px-3 px-lg-0 px-md-0 py-2 py-lg-0 py-md-0"
+              >
+                <a href="#3">Terms & Conditions</a>
+              </li>
+              <li
+                class="footer-items px-3 px-lg-0 px-md-0 py-2 py-lg-0 py-md-0"
+              >
+                <a href="#4">Privacy Policy</a>
+              </li>
+              <li
+                class="footer-items px-3 px-lg-0 px-md-0 py-2 py-lg-0 py-md-0"
+              >
+                <a href="#5">Online Orders Terms and conditions</a>
+              </li>
+              <li
+                class="footer-items px-3 px-lg-0 px-md-0 py-2 py-lg-0 py-md-0"
+              >
+                <a href="#6">Sitemap</a>
+              </li> -->
+            </ul>
+          </div>
+        </section>
+
+        <!-- amaron copyright section  -->
+        <div class="copyright pt-2">
+          <p class="mb-0">&copy;2022 AMARON Batteries Amaron KONNEKT</p>
+        </div>
+      </footer>
+    </main>
+
+    <script src="./js/foooter-bootstrap.js"></script>
+  </body>
+</html>

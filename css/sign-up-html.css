@@ -1,0 +1,410 @@
+/* universal selectots  */
+
+@font-face {
+  font-family: poppins;
+  src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+
+body {
+  background-color: #f8f8f8;
+}
+
+/* css code for index.html starts from here  */
+
+/* navbar top section code starts here  */
+.main-header {
+  background-color: #95c93d;
+  color: #fff;
+}
+
+.main-header > .main-header-contact {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5em 4em;
+}
+
+.main-header > .main-header-contact a,
+.main-header > .main-header-contact span {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 0.9em;
+  font-size: 0.8em;
+}
+
+.main-header > .main-header-contact a:hover {
+  text-decoration: underline;
+}
+
+.main-header-contact .fa-brands {
+  font-size: 1.3em;
+}
+/* navbar middle section code starts here  */
+
+.main-header-log {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em 4em;
+}
+
+.main-header-log-searchbar input[type="text"] {
+  width: 35em;
+  padding: 0.5em 0.5em;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+}
+
+.main-header-log-cart {
+  margin: 0 1em;
+}
+
+.main-header-log-cart .cart {
+  background-color: #fff;
+  color: #000;
+  border: 0;
+  border-radius: 100px;
+  padding: 0.1em 0.5em;
+}
+
+.main-header-log-reg > span > .reg {
+  font-size: 0.8em;
+}
+
+/* navbar last section code starts here  */
+
+.main-header-menu {
+  display: flex;
+  justify-content: center;
+  background-color: #6fa219;
+  padding: 0.5em;
+}
+
+.main-header-menu > .menu {
+  display: flex;
+  list-style: none;
+}
+
+.main-header-menu > .menu li {
+  position: relative;
+}
+
+.main-header-menu > .menu li > span {
+  padding: 0.3em 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.85em;
+}
+
+.main-header-menu > .menu > li > .sub-menu {
+  background-color: #fff;
+  position: absolute;
+  left: 17%;
+  top: 130%;
+  padding: 0.6em 0;
+  display: none;
+}
+
+.main-header-menu > .menu > li:hover {
+  cursor: pointer;
+}
+
+.menu li span a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-header-menu > .menu > li:hover > .sub-menu {
+  display: block;
+  z-index: 1;
+}
+
+.sub-menu > ul > li {
+  list-style: none;
+  padding: 0.35em 2em;
+}
+
+.sub-menu > ul > li > a {
+  font-weight: bold;
+  color: gray;
+  font-size: 0.8em;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.sub-menu > ul > li > a:hover {
+  cursor: pointer;
+  color: #95c93d;
+}
+
+/* transition effects on navbar last section  on down arrow  */
+.fa-angle-down {
+  font-size: 0.7em;
+}
+
+.main-header-menu > .menu > li:hover > span > .fa-angle-down {
+  transform: rotateZ(-180deg);
+  transition-duration: 0.5s;
+}
+
+/* navbar ends */
+
+/* this is the main body  consists of 3 part 
+    1- top bar
+    2- left form side
+    3- right some manual side
+*/
+
+.signup-section {
+  width: 90%;
+  margin: 5.5em auto;
+  background-color: white;
+}
+
+/* this is the top heading bar of body  */
+.signup-bar {
+  background-color: #95c93d;
+  padding: 1.5em;
+  color: white;
+  font-size: 0.8em;
+  letter-spacing: 1.75px;
+}
+
+/* left form section starts  */
+.form {
+  margin: 1.75em 2.5em;
+}
+
+.form input[type="radio"] {
+  accent-color: #95c93d;
+}
+
+.form label {
+    margin-right: 3.5em;
+}
+
+.form input[type="radio"]:checked + label {
+  color: #95c93d;
+}
+
+.form-container {
+  display: flex;
+  margin-top: 2em;
+}
+
+.signup-form {
+  width: 50%;
+}
+
+ /* left part of body's form to signup */
+
+.signup-form form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.signup-form form input {
+  padding: 0.8em;
+  outline: none;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+  margin: 1.3em 0;
+}
+
+.signup-form form .otp {
+  position: relative;
+}
+
+.signup-form form .otp a {
+  position: absolute;
+  right: 0;
+  padding: 0.5em;
+  bottom: 20%;
+  color: rgb(99, 97, 97);
+  text-decoration: none;
+  font-size: 0.85em;
+  font-weight: bold;
+}
+
+.signup-form form input[type="password"] {
+  margin-bottom: 0;
+}
+
+.signup-form form label {
+  font-size: 0.75em;
+  color: #636363;
+  margin-bottom: 1.4em;
+}
+
+.signup-form form button {
+  background-color: #95c93d;
+  color: white;
+  font-size: 0.8em;
+  font-weight: bold;
+  letter-spacing: 3px;
+  padding: 0.8em;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 8px #5c5c5cbb;
+}
+
+.signup-form form button:hover {
+    background-color: #7ca536;
+}
+
+.signup-form .social {
+  margin-top: 0.8em;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signup-form .social p {
+    font-size: 0.9em;
+}
+
+.signup-form .social i{
+    font-size: 1.5em;
+    margin:  0.2em;
+    margin-bottom: 2em;
+}
+
+/* right part of body  */
+
+.signup-section .form .instruction {
+    margin-top: 3em;
+}
+
+.signup-section .form .instruction h2 {
+    font-size: 0.9em;
+}
+
+
+.form .instruction p {
+    margin-top: 1.5em;
+    font-size: 0.85em;
+    color: #5c5c5c;
+}
+
+.form .instruction p i {
+    margin-right: 0.4em;
+    color: #95c93d;
+}
+
+
+/* last section of code  */
+
+.before-footer {
+  font-size: 0.75em;
+  background-color: #f1f1f1;
+  padding: 0.5em;
+  padding-left: 4em;
+  color: gray;
+}
+
+/* Footer section */
+
+/* footer section consists of 2 part in it 
+       */
+
+/* 1st part of footer section code starts form here  */
+
+.top-footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f1c1d;
+  width: 100%;
+  color: #fff;
+  padding: 2em 4em;
+}
+
+.top-footer > .top-footer-left {
+  display: flex;
+  padding-top: 20px;
+  align-items: center;
+}
+
+.top-footer-left .top-footer-social {
+  padding-left: 1.7em;
+  font-size: 1.5em;
+}
+
+.top-footer > .top-footer-right {
+  display: flex;
+  align-items: center;
+}
+
+.top-footer > .top-footer-right > .top-footer-contact > .contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-footer > .top-footer-right > .top-footer-contact > span {
+  margin: -45px;
+}
+
+.top-footer-contact > .contact > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.top-footer-contact > .contact > a:hover {
+  color: #95c93d;
+}
+
+.top-footer > .top-footer-right > .top-footer-pitstop {
+  display: flex;
+  white-space: nowrap;
+}
+
+.top-footer-right > .top-footer-pitstop img {
+  margin-right: 1em;
+  width: 56px;
+  height: 74px;
+}
+
+.top-footer-pitstop div .pitstop-locator:hover {
+  color: #95c93d;
+}
+
+/* 2nd part of footer code starts from here  */
+.main-footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #231f20;
+  padding: 2em 4em;
+}
+
+.main-footer p {
+  color: #95c93d;
+  font-size: 1em;
+}
+
+.main-footer ul {
+  list-style: none;
+  padding-top: 0.5em;
+}
+
+.main-footer ul li {
+  font-size: 0.85em;
+  padding: 0.4em 0;
+}
+
+.main-footer ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.main-footer ul li a:hover {
+  color: #95c93d;
+}
